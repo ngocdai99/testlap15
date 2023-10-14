@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 1400px;
+    height: 1080px;
+    margin: 0 auto;
+
+
+}
+
+
+header {
+    background-image: url(../../images/logofpl.jpg);
+    background-size: 100% 100%;
+    height: 30%;
+    padding-bottom: 25%;
+}
+
+nav {
+    margin: 0 auto;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px orangered;
+    list-style: none;
+    background-color: orangered;
+    height: 40px;
+    line-height: 40px;
+    transition: 0.6s;
+
+}
+nav:hover{
+    transform: scale(1.1);
+}
+
+.hmenu {
+    margin: 0px;
+    padding-left: 500px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px orangered;
+    list-style: none;
+    background-color: orangered;
+    height: 40px;
+}
+
+ul.hmenu>li>a {
+    display: block;
+    line-height: 40px;
+    padding-left: 25px;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: white;
+}
+
+ul.hmenu>li>a:hover {
+    color: yellow;
+    font-weight: bolder;
+}
+
+ul.hmenu>li {
+    float: left;
+    margin: 0 auto;
+    position: relative;
+}
+
+ul.hmenu>li:hover>.sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    margin: 0px;
+    padding: 0px;
+    width: 120px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px orangered;
+    list-style: none;
+    position: absolute;
+    display: none;
+}
+
+.sub-menu>li>a {
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px dotted orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    background: white;
+    color: orangered;
+}
+
+.sub-menu>li>a:hover {
+    background: white;
+    color: red;
+    font-weight: bolder;
+}
+
+
+article {
+    float: left;
+    width: 75%;
+    height: 45%;
+    background-color: white;
+}
+
+
+
+
+footer {
+    background-color: rgb(191, 235, 235);
+    clear: both;
+    text-align: center;
+    font-variant: small-caps;
+    width: 100%;
+    height: 10%;
+    border-top: 5px double orangered;
+
+}
+
+a {
+    font-variant: small-caps;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+a:active {
+    color: green;
+}
+
+aside {
+    background-color: white;
+    float: left;
+    width: 25%;
+    height: 45%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px green;
+    list-style: none;
+    transition: 0.6s;
+}
+aside:hover{
+    transform: scale(1.1);
+}
+aside>ul>li>a{
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px dotted rgb(7, 104, 7);
+    text-decoration: none;
+    font-variant: small-caps;
+    color: green;
+    padding-left: 25px;
+    background: white;
+}
+aside>ul>li>a:hover {
+    color: orangered;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+
+
+iframe[name=page] {
+    width: 100%;
+    min-height: 450px;
+}

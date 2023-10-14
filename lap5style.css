@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-decoration: underline;
+}
+.sanpham {
+    width: 22%;
+    float: left;
+    border: 1px solid green;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0.5%;
+    padding: 0.5%;
+    background-color: silver;
+}
+.sanpham:hover {
+    box-shadow: 0 10px 20px hwb(302 9% 16%);
+}    
+.link:visited{
+    color: hsl(347, 85%, 49%);
+}
+
+.name {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.price {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+b{
+    color:green;
+}
